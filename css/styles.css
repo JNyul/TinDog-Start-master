@@ -1,14 +1,5 @@
 body {
-    background-color: #ff4c68;
     font-family: "montserrat";
-}
-
-.container-fluid {
-    padding: 3% 15%;
-}
-
-.dogpic {
-    transform: rotate(15deg);
 }
 
 h1 {
@@ -17,6 +8,43 @@ h1 {
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 800;
+}
+
+h2 {
+    font-family: "Monserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: "montserrat";
+    font-weight: 600;
+}
+
+
+/*Class */
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.dogpic {
+    transform: rotate(15deg);
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.fac {
+    color: #ef8172;
+    margin: 1rem;
 }
 
 .navbar {
@@ -42,6 +70,20 @@ h1 {
     padding-left: 0!important;
 }
 
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.press-logos {
+    width: 200px;
+    margin: 20px 20px 50px;
+}
+
+
+/*MediaQ*/
+
 @media screen and (max-width: 1000px) {
     .dogpic {
         padding-top: 50px;
@@ -58,4 +100,34 @@ h1 {
 
 .btn-outline-light:hover {
     color: black;
+}
+
+
+/*ID section*/
+
+#title {
+    background-color: #ff4c68;
+}
+
+#features {
+    padding: 7% 15%;
+}
+
+#testimonials {
+    color: #fff;
+    background-color: #ef8172;
+    text-align: center;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+
+/*action*/
+
+.fac:hover {
+    color: #ff4c68;
 }
