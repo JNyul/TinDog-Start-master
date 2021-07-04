@@ -1,5 +1,6 @@
 body {
     font-family: "montserrat";
+    width: auto;
 }
 
 h1 {
@@ -26,7 +27,7 @@ h3 {
 /*Class */
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .carousel-item {
@@ -34,7 +35,10 @@ h3 {
 }
 
 .dogpic {
-    transform: rotate(15deg);
+    position: absolute;
+    width: 60%;
+    transform: rotate(30deg);
+    margin-right: 30px;
 }
 
 .feature-box {
@@ -76,6 +80,10 @@ h3 {
     margin: 20px;
 }
 
+.topspace {
+    padding: 3% 2%;
+}
+
 .press-logos {
     width: 200px;
     margin: 20px 20px 50px;
@@ -110,7 +118,10 @@ h3 {
 }
 
 #features {
+    background-color: #fff;
     padding: 7% 15%;
+    position: relative;
+    z-index: 1;
 }
 
 #testimonials {
@@ -123,6 +134,12 @@ h3 {
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
+}
+
+#pricing {
+    margin: 0 30px;
+    padding: 100px;
+    text-align: center;
 }
 
 
