@@ -34,8 +34,10 @@ h3 {
     background-color: #ff4c68;
     color: #fff;
     height: auto;
+    padding: 7% 15%;
     text-align: center;
-    font-family: "montserrat";
+    font-weight: 900;
+    font-family: "Monserrat-Bold"
 }
 
 .carousel-item {
@@ -43,7 +45,11 @@ h3 {
 }
 
 .h3mode {
-    padding: 5%;
+    font-size: 3rem;
+}
+
+.btn {
+    font: optional;
 }
 
 .dogpic {
@@ -65,6 +71,7 @@ h3 {
 
 .logos {
     text-align: center;
+    font-size: medium;
 }
 
 div.logos a {
@@ -101,7 +108,8 @@ div.logos a:hover {
 
 p.h3mode,
 div.h3mode {
-    padding: 10px;
+    margin: 30px;
+    font-size: 1rem;
 }
 
 .testimonial-image {
@@ -117,6 +125,10 @@ div.h3mode {
 .press-logos {
     width: 200px;
     margin: 20px 20px 50px;
+}
+
+.social-icon {
+    margin: 20px;
 }
 
 
@@ -189,4 +201,15 @@ p.h3mode {
     #title {
         text-align: center;
     }
+    h1,
+    h2,
+    h3 {
+        font-size: 2rem;
+    }
+    img {
+        width: auto;
+    }
+}
+
+
 }
