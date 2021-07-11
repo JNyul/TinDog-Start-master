@@ -30,8 +30,20 @@ h3 {
     padding: 3% 15% 7%;
 }
 
+.cs {
+    background-color: #ff4c68;
+    color: #fff;
+    height: auto;
+    text-align: center;
+    font-family: "montserrat";
+}
+
 .carousel-item {
     padding: 7% 15%;
+}
+
+.h3mode {
+    padding: 5%;
 }
 
 .dogpic {
@@ -49,6 +61,19 @@ h3 {
 .fac {
     color: #ef8172;
     margin: 1rem;
+}
+
+.logos {
+    text-align: center;
+}
+
+div.logos a {
+    color: black;
+    transition: all .2s ease-in-out;
+}
+
+div.logos a:hover {
+    transform: scale(6);
 }
 
 .navbar {
@@ -74,6 +99,11 @@ h3 {
     padding-left: 0!important;
 }
 
+p.h3mode,
+div.h3mode {
+    padding: 10px;
+}
+
 .testimonial-image {
     width: 10%;
     border-radius: 100%;
@@ -90,16 +120,6 @@ h3 {
 }
 
 
-/*MediaQ*/
-
-@media screen and (max-width: 1000px) {
-    .dogpic {
-        padding-top: 50px;
-        transform: rotate(0deg);
-    }
-}
-
-
 /*Download Buttons*/
 
 .download-button {
@@ -113,10 +133,6 @@ h3 {
 
 /*ID section*/
 
-#title {
-    background-color: #ff4c68;
-}
-
 #features {
     background-color: #fff;
     padding: 7% 15%;
@@ -124,10 +140,22 @@ h3 {
     z-index: 1;
 }
 
+#footer {
+    height: auto;
+}
+
+p.h3mode {
+    text-align: center;
+}
+
 #testimonials {
     color: #fff;
     background-color: #ef8172;
     text-align: center;
+}
+
+#title {
+    background-color: #ff4c68;
 }
 
 #press {
@@ -147,4 +175,18 @@ h3 {
 
 .fac:hover {
     color: #ff4c68;
+}
+
+
+/*media Q*/
+
+@media (max-width: 1028px) {
+    .dogpic {
+        position: static;
+        transform: rotate(0);
+        z-index: 1;
+    }
+    #title {
+        text-align: center;
+    }
 }
