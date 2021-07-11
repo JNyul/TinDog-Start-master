@@ -1,3 +1,5 @@
+/*html Selectors*/
+
 body {
     font-family: "montserrat";
     width: auto;
@@ -72,15 +74,6 @@ h3 {
 .logos {
     text-align: center;
     font-size: medium;
-}
-
-div.logos a {
-    color: black;
-    transition: all .2s ease-in-out;
-}
-
-div.logos a:hover {
-    transform: scale(6);
 }
 
 .navbar {
@@ -207,9 +200,6 @@ p.h3mode {
         font-size: 2rem;
     }
     img {
-        width: auto;
+        width: 300px!important;
     }
-}
-
-
 }
